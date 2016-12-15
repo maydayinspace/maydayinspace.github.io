@@ -1,0 +1,168 @@
+  html *{
+  box-sizing: border-box;
+}
+
+  html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+  }
+
+
+  p {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    margin-left: 485px;
+    font-size: 12px;
+
+  }
+
+
+  h1 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 87px;
+    font-weight: 3;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+
+  h2.gros-titre {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 45px;
+    font-weight: 3;
+    text-align: center;
+    margin-top: 1;
+    margin-bottom: 0;
+
+  }
+
+  h2 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 2em;
+
+  }
+
+  h3 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 320px;
+    font-size: 10px;
+
+  }
+
+  h3.italic {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 320px;
+    font-size: 10px;
+  }
+
+
+  footer {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 5em;
+
+  }
+
+  a {
+    color: black;
+    text-decoration: overline;
+    font-family: 'Roboto Mono', monospace;
+    background: #02feb4;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  a.home {
+    color: black;
+    text-decoration: overline;
+    font-family: 'Roboto Mono', monospace;
+    background: #02feb4;
+    text-align: right;
+    margin-top: 3em;
+    margin-left: 172px;
+    position: fixed;
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  .lickit {
+    max-width: 9%;
+    height: auto;
+    margin-top: 3em;
+  }
+
+  .britney {
+    max-width: 110%;
+    height: auto;
+  }
+
+  .maydayinspace {
+    max-width: 55%;
+    height:auto;
+  }
+
+
+  .jesus {
+    max-width: 9%;
+    height: auto;
+  }
+
+  .centre
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .boite {
+    min-height: 400px; //hauteur min
+    width: auto;
+    height: 60vh; // hauteur souhaitee (60% fenetre)
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding:1em;
+    margin-left: 300px;
+  }
+
+  .boite .slide
+  {
+    white-space:nowrap;
+    display: inline-block;
+    margin:0 1px;
+    height: 100%;
+    width:auto;
+    vertical-align: top;
+  }
+
+  .boite img
+  {
+    height: 100%;
+    width:auto;
+  }
